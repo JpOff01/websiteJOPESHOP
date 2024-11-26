@@ -10,11 +10,10 @@ function LandingPage3() {
         </svg>
 
         <div class="flex flex-col gap-y-10 justify-center mt-14 ">
-            <p class="text-WhiteText font-subtitle text-4xl px-24 mb-16">Para ter acesso aos arquivos do beat, você precisa ter uma <strong>Licença</strong>.</p>
-            <p class="text-WhiteText font-subtitle text-4xl px-24 mb-16">Adquirindo uma das licenças, você possui alguns critérios que precisam ser cumpridos, caso contrário será invalidado sua compra.</p>
-            <p class="text-WhiteText font-subtitle text-4xl px-24">Cada licença possui um valor diferente baseado nos critérios definidos nele, tendo um valor base da primeira licença de <strong>R$50,00</strong> .</p>
+            <p class="text-WhiteText font-subtitle text-3xl px-24 mb-16">Para ter acesso aos arquivos do beat, você precisa ter uma <strong>Licença</strong>.</p>
+            <p class="text-WhiteText font-subtitle text-3xl px-24 mb-16">Adquirindo uma das licenças, você possui alguns critérios que precisam ser cumpridos, caso contrário será invalidado sua compra.</p>
+            <p class="text-WhiteText font-subtitle text-3xl px-24">Cada licença possui um valor diferente baseado nos critérios definidos nele, tendo um valor base da primeira licença de <strong>R$50,00</strong> .</p>
         </div>
-        
     </section>
   )
 }

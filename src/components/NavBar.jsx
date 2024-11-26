@@ -16,8 +16,8 @@ function NavBar() {
         <li class="font-subtitle text-WhiteText text-xl font-light"><a href="">Drumkit</a></li>
         <li class="font-subtitle text-WhiteText text-xl font-light"><a href="">Beats</a></li>
 
-        <img class="size-8 ml-10" src="shopping-cart.svg" alt="carrinho de compra" />
-        <img class="size-8" src="user.svg" alt="personagem_login" />
+        <a href=""><img class="size-8 ml-10" src="shopping-cart.svg" alt="carrinho de compra" /></a>
+        <a href=""><img class="size-8" src="user.svg" alt="personagem_login" /></a>
       </ul>
     </nav>
   )

@@ -10,13 +10,13 @@ function LandingPage2() {
 
         <div class="flex flex-col">
             <div class="px-20 mb-20">
-                <h1 class="font-title text-WhiteText font-bold text-5xl uppercase">Propósitos <br/> e objetivos</h1>
+                <h1 class="font-title text-WhiteText font-bold text-5xl uppercase drop-shadow-2xl">Propósitos <br/> e objetivos</h1>
             </div>
 
-            <div>
-                <p class="px-20 mb-16 font-subtitle text-WhiteText content-around font-light text-2xl">Aqui o objetivo é oferecer os melhores samples, drumkits e até mesmo beats de trap e funk prontos para as suas produções!</p>
-                <p class="px-20 mb-16 font-subtitle text-WhiteText content-around font-light text-2xl">Isso tudo no melhor preço! De forma acessível e de ótima  qualidade!</p>
-                <p class="px-20 font-subtitle text-WhiteText content-around font-light text-2xl">Não perca oportunidade, veja o  nosso estoque e aproveite!</p>
+            <div class="px-20">
+                <p class=" mb-16 font-subtitle text-WhiteText content-around font-light text-2xl">Aqui o objetivo é oferecer os melhores samples, drumkits e até mesmo beats de trap e funk prontos para as suas produções!</p>
+                <p class=" mb-16 font-subtitle text-WhiteText content-around font-light text-2xl">Isso tudo no melhor preço! De forma acessível e de ótima  qualidade!</p>
+                <p class="font-subtitle text-WhiteText content-around font-light text-2xl">Não perca oportunidade, veja o  nosso estoque e aproveite!</p>
             </div>
         </div>
     </section>
