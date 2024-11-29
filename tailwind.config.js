@@ -13,6 +13,9 @@ export default {
     colors: {
       'BlackBackground': '#0D0D0D',
       'GrayBackground': '#161616',
+      'GoldCardBackground': '#DAA520',
+      'DiamondCardBackground': '#B9F2FF',
+      'GrayText': '#161616',
       'WhiteText': '#F5F5F5',
     },
 

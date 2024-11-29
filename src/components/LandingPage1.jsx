@@ -15,15 +15,15 @@ function LandingPage1() {
         </div>
 
         <div class="flex box-border gap-20 justify-center mt-5">
-            <div>
+            <div class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
                 <a href=""><img class="size-14" src="tiktok.svg" alt="" /></a>
             </div>
 
-            <div>
+            <div class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
                 <a href=""><img class="size-14" src="youtube.svg" alt="" /></a>
             </div>
 
-            <div>
+            <div class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
                 <a href=""><img class="size-14" src="Discord.svg" alt="" /></a>
             </div>
         </div>

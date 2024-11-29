@@ -10,7 +10,7 @@ function LandingPage2() {
 
         <div class="flex flex-col">
             <div class="px-20 mb-20">
-                <h1 class="font-title text-WhiteText font-bold text-5xl uppercase drop-shadow-2xl">Propósitos <br/> e objetivos</h1>
+                <h1 class="font-title text-WhiteText font-bold text-5xl uppercase drop-shadow-md">Propósitos <br/> e objetivos</h1>
             </div>
 
             <div class="px-20">
