@@ -9,18 +9,24 @@ function NavBar() {
   return (
     <nav class="flex items-center justify-between pt-6">
       <div>
-        <a href=""><img class=" size-16 ml-16" src="JO PE.svg" alt="logotipo" /></a>
-        
+        <NavLink to="/"><img class=" size-16 ml-16" src="JO PE.svg" alt="logotipo" /></NavLink>
       </div>
 
-      <ul class="flex gap-6 mr-16">
-        <li class="font-subtitle text-WhiteText text-xl font-light"><a href="">Contato</a></li>
-        <li class="font-subtitle text-WhiteText text-xl font-light"><a href="">Samples</a></li>
-        <li class="font-subtitle text-WhiteText text-xl font-light"><a href="">Drumkit</a></li>
-        <li class="font-subtitle text-WhiteText text-xl font-light"><a href="">Beats</a></li>
+      <ul class="flex items-center gap-6 mr-16">
+        <li class="font-subtitle text-WhiteText text-xl font-light"><NavLink to="">Contato</NavLink></li>
+        <li class="font-subtitle text-WhiteText text-xl font-light"><NavLink to="">Samples</NavLink></li>
+        <li class="font-subtitle text-WhiteText text-xl font-light"><NavLink to="">Drumkit</NavLink></li>
+        <li class="font-subtitle text-WhiteText text-xl font-light"><NavLink to="">Beats</NavLink></li>
+        <div class="flex gap-10 items-center">
+          <a href="">
+            <img class="size-8 ml-10" src="shopping-cart.svg" alt="carrinho de compra" />
+          </a>
 
-        <a href=""><img class="size-8 ml-10" src="shopping-cart.svg" alt="carrinho de compra" /></a>
-        <a href=""><img class="size-8" src="user.svg" alt="personagem_login" /></a>
+          <NavLink to="login">
+            <img class="size-8" src="user.svg" alt="personagem_login" />
+          </NavLink>
+        </div>
+        
       </ul>
     </nav>
   )

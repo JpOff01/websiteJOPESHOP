@@ -8,7 +8,7 @@ import ButtonFinalLandingPage from '../components/ButtonFinalLandingPage'
 
 function LandingPage() {
   return (
-    <div  class="min-h-screen bg-gradient-radial from-BlackBackground to-GrayBackground">
+    <div  class="min-h-screen bg-gradient-radial from-GrayBackground to-BlackBackground">
         <NavBar/>
         <LandingPage1/>
         <LandingPage2/>
